@@ -3,7 +3,10 @@ import VideoIntro from "./VideoIntro";
 
 const About = () => {
   return (
-    <section className="bg-gradient-to-r from-white via-0 to-[#8AE1FC] py-20 px-6 md:px-12">
+    <section
+      className="bg-gradient-to-r from-white via-0 to-[#8AE1FC] py-20 px-6 md:px-12"
+      id="about-me"
+    >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left: Text Content */}
         <div className="w-full">

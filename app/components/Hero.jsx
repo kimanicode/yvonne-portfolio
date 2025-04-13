@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="bg-white min-h-screen flex items-center p-6 md:p-12">
+    <section
+      className="bg-white min-h-screen flex items-center p-6 md:p-12"
+      id="home"
+    >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between w-full gap-12">
         {/* Text Content */}
         <div className="flex-1 text-center md:text-left">
@@ -11,20 +14,21 @@ const Hero = () => {
             Welcome to my world
           </p>
           <h3 className="text-4xl md:text-5xl font-extrabold text-gray-900 pb-6">
-            Hi, I'm <span className="text-pink-600 ">Yvonne</span> —
-            <br />A passionate and curious health Data Scientist
+            Hi, I'm <span className="text-pink-600">Yvonne</span> —<br />A
+            passionate and curious health Data Scientist
           </h3>
-          <p className="text-gray-600 text-lg mb-8"></p>
+
           <div className="flex justify-center md:justify-start gap-4">
             <Link
-              href="#"
+              href="#contact"
               className="bg-pink-600 text-black px-6 py-3 rounded-full font-medium hover:bg-pink-700 transition"
             >
               Hire Me
             </Link>
             <Link
-              href="#"
-              className="border border-gray-300 text-black px-6 py-3 rounded-full font-medium bg-[#8AE1FC] hover:bg-[#8AE1FC]/50  transition"
+              href="/YvonneKabui_CV.pdf"
+              download
+              className="border border-gray-300 text-black px-6 py-3 rounded-full font-medium bg-[#8AE1FC] hover:bg-[#8AE1FC]/50 transition"
             >
               Download CV
             </Link>

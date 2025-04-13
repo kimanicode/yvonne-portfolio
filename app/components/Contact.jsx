@@ -2,7 +2,10 @@ import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="bg-gradient-to-b from-[#f0faff] to-white py-20 px-6 md:px-12">
+    <section
+      className="bg-gradient-to-b from-[#f0faff] to-white py-20 px-6 md:px-12"
+      id="contact"
+    >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-[#8AE1FC] mb-4 text-center">
           Contact Me
